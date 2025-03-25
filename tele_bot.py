@@ -12,7 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Replace 'YOUR_BOT_TOKEN' with your actual Telegram bot token
-TOKEN = '8019917817:AAF4oTZq1Ryy6SL5gM_2oMDHIWDL1WF0u4k'
+TOKEN = ''
 
 # Initialize the bot
 updater = Updater(TOKEN, use_context=True)
